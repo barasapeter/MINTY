@@ -1,0 +1,29 @@
+BILLINGSERVICES
+service_name	business_number		admin_passkey		account_balance
+KPLC PREPAID	888880			Strong@dmin12		0
+STARTIMES		595959			sTartimes@dmin12		0
+
+BILLINGSERVICECONSUMER
+account_number	amount	transaction_code
+
+
+
+
+
+
+TRANSACTION TYPES
+[('Agent', 'Business'),
+ ('Agent', 'PayBillServiceMerchant'),
+ ('Agent', 'Person'),
+ ('Agent', 'PochiLaBiashara'),
+ ('Agent', 'TransactionManager'),
+ ('Business', 'PayBillServiceMerchant'),
+ ('Business', 'Person'),
+ ('Business', 'PochiLaBiashara'),
+ ('Business', 'TransactionManager'),
+ ('PayBillServiceMerchant', 'Person'),
+ ('PayBillServiceMerchant', 'PochiLaBiashara'),
+ ('PayBillServiceMerchant', 'TransactionManager'),
+ ('Person', 'PochiLaBiashara'),
+ ('Person', 'TransactionManager'),
+ ('PochiLaBiashara', 'TransactionManager')]
